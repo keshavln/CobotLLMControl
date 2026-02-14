@@ -1,3 +1,0 @@
-[console_scripts]
-haptic_integration = haptic.haptic_integration:main
-
