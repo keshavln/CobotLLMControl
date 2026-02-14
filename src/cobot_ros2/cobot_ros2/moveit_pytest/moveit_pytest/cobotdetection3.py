@@ -1,5 +1,4 @@
 import sys
-sys.path.append('/home/keshav/cobot_ros2_ws/src/cobot_ros2')
 import os
 import rclpy
 from pynput import keyboard # Changed import
