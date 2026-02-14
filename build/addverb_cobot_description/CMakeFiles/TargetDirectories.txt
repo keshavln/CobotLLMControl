@@ -1,9 +1,0 @@
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/uninstall.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/addverb_cobot_description_uninstall.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/test.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/edit_cache.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/rebuild_cache.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/list_install_components.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/install.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/install/local.dir
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_description/CMakeFiles/install/strip.dir

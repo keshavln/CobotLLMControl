@@ -1,9 +1,0 @@
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:msg/CartesianPoint.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:msg/CartesianTrajectoryPoint.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:msg/CartesianTrajectory.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:action/FollowCartesianTrajectory.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:action/Replay.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:srv/Record.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:srv/FlexFactor.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:srv/Gripper.idl
-/home/keshav/cobot_ros2_ws/build/addverb_cobot_msgs/rosidl_adapter/addverb_cobot_msgs:msg/JointJoggingVelocity.idl
