@@ -1,0 +1,72 @@
+-- Found utility: 0.0.0 (/home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers
+[35m[1mConsolidate compiler generated dependencies of target gripper_action_bridge[0m
+[35m[1mConsolidate compiler generated dependencies of target controller_utils[0m
+[ 11%] Built target gripper_action_bridge
+[ 23%] Built target controller_utils
+[35m[1mConsolidate compiler generated dependencies of target addverb_cobot_controllers[0m
+[100%] Built target addverb_cobot_controllers
+-- Install configuration: ""
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/addverb_cobot_controllers_plugin.xml
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include/
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/control_default_params.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/gripper_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/cartesian_jogging_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/cartesian_impedance_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/ptp_joint_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/velocity_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/free_drive_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/effort_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/joint_impedance_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/controller_utils.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/gravity_comp_effort_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/recorder_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/joint_jogging_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/ptp_tcp_controller.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/libaddverb_cobot_controllers.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/libcontroller_utils.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/addverb_cobot_controllers/gripper_action_bridge
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/library_path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/library_path.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/package_run_dependencies/addverb_cobot_controllers
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/parent_prefix_path/addverb_cobot_controllers
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/ament_prefix_path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/path.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.bash
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.sh
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.zsh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/package.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/packages/addverb_cobot_controllers
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/addverb_cobot_controllers
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/export_addverb_cobot_controllersExport.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/export_addverb_cobot_controllersExport-noconfig.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/addverb_cobot_controllersConfig.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/addverb_cobot_controllersConfig-version.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/package.xml

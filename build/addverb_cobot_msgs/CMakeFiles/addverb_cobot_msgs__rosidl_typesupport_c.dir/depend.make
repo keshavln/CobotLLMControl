@@ -1,0 +1,2 @@
+# Empty dependencies file for addverb_cobot_msgs__rosidl_typesupport_c.
+# This may be replaced when dependencies are built.

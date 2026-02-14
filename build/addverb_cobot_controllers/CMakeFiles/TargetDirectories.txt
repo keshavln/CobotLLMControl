@@ -1,0 +1,12 @@
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/uninstall.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/addverb_cobot_controllers_uninstall.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/controller_utils.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/addverb_cobot_controllers.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/gripper_action_bridge.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/test.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/edit_cache.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/rebuild_cache.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/list_install_components.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/install.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/install/local.dir
+/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers/CMakeFiles/install/strip.dir

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from addverb_cobot_msgs/action/FollowCartesianTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "addverb_cobot_msgs/msg/CartesianTrajectory.idl"
+
+module addverb_cobot_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct FollowCartesianTrajectory_Goal {
+      addverb_cobot_msgs::msg::CartesianTrajectory trajectory;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct FollowCartesianTrajectory_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct FollowCartesianTrajectory_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

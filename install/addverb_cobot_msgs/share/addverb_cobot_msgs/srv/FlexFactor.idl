@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from addverb_cobot_msgs/srv/FlexFactor.srv
+// generated code does not contain a copyright notice
+
+
+module addverb_cobot_msgs {
+  module srv {
+    struct FlexFactor_Request {
+      double flex_factor;
+    };
+    struct FlexFactor_Response {
+      string message;
+    };
+  };
+};

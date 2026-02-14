@@ -1,0 +1,65 @@
+[0.012s] Invoking command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/utility/lib:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers -- -j20 -l20
+[0.075s] [ 11%] Built target gripper_action_bridge
+[0.077s] [ 23%] Built target controller_utils
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target addverb_cobot_controllers[0m
+[0.124s] [ 29%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/ptp_tcp_controller.cpp.o[0m
+[2.149s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_tcp_controller.cpp:1[m[K:
+[2.149s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/ptp_tcp_controller.h:41:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.149s]    41 |         RCLCPP_SHARED_PTR_DEFINITIONS(PTPTCPController)[01;35m[K;[m[K
+[2.149s]       |                                                        [01;35m[K^[m[K
+[2.149s]       |                                                        [31m[K-[m[K
+[2.195s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_tcp_controller.cpp:[m[K In member function ‘[01m[Kvoid addverb_cobot_controllers::PTPTCPController::sendNextCmd_()[m[K’:
+[2.195s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_tcp_controller.cpp:293:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<addverb_cobot_msgs::msg::CartesianTrajectoryPoint_<std::allocator<void> >, std::allocator<addverb_cobot_msgs::msg::CartesianTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.195s]   293 |                 if ([01;35m[Kcur_index_ < current_goal_.trajectory.points.size()[m[K)
+[2.195s]       |                     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.956s] [ 35%] [32m[1mLinking CXX shared library libaddverb_cobot_controllers.so[0m
+[22.789s] [100%] Built target addverb_cobot_controllers
+[22.799s] Invoked command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers' returned '0': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/utility/lib:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers -- -j20 -l20
+[22.799s] Invoking command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/utility/lib:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers
+[22.805s] -- Install configuration: ""
+[22.805s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/addverb_cobot_controllers_plugin.xml
+[22.805s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include/
+[22.805s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers
+[22.805s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/control_default_params.h
+[22.805s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/gripper_controller.h
+[22.805s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/cartesian_jogging_controller.h
+[22.806s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/cartesian_impedance_controller.h
+[22.806s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/ptp_joint_controller.h
+[22.806s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/velocity_controller.h
+[22.806s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/free_drive_controller.h
+[22.806s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/effort_controller.h
+[22.806s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/joint_impedance_controller.h
+[22.807s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/controller_utils.h
+[22.807s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/gravity_comp_effort_controller.h
+[22.807s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/recorder_controller.h
+[22.807s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/joint_jogging_controller.h
+[22.807s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/include//addverb_cobot_controllers/ptp_tcp_controller.h
+[22.807s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/libaddverb_cobot_controllers.so
+[22.823s] -- Set runtime path of "/home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/libaddverb_cobot_controllers.so" to ""
+[22.823s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/libcontroller_utils.so
+[22.823s] -- Set runtime path of "/home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/libcontroller_utils.so" to ""
+[22.823s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/addverb_cobot_controllers/gripper_action_bridge
+[22.825s] -- Set runtime path of "/home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/lib/addverb_cobot_controllers/gripper_action_bridge" to ""
+[22.825s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/library_path.sh
+[22.825s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/library_path.dsv
+[22.825s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/package_run_dependencies/addverb_cobot_controllers
+[22.825s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/parent_prefix_path/addverb_cobot_controllers
+[22.825s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/ament_prefix_path.sh
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/ament_prefix_path.dsv
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/path.sh
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/environment/path.dsv
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.bash
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.sh
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.zsh
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/local_setup.dsv
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/package.dsv
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/packages/addverb_cobot_controllers
+[22.826s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/addverb_cobot_controllers
+[22.827s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/export_addverb_cobot_controllersExport.cmake
+[22.827s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/export_addverb_cobot_controllersExport-noconfig.cmake
+[22.827s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[22.827s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.828s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/addverb_cobot_controllersConfig.cmake
+[22.828s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake/addverb_cobot_controllersConfig-version.cmake
+[22.828s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/package.xml
+[22.830s] Invoked command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers' returned '0': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/utility/lib:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers

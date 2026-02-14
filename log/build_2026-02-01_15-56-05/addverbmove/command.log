@@ -1,0 +1,4 @@
+Invoking command in '/home/keshav/cobot_ros2_ws/build/addverbmove': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverbmove -- -j20 -l20
+Invoked command in '/home/keshav/cobot_ros2_ws/build/addverbmove' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverbmove -- -j20 -l20
+Invoking command in '/home/keshav/cobot_ros2_ws/build/addverbmove': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverbmove
+Invoked command in '/home/keshav/cobot_ros2_ws/build/addverbmove' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverbmove

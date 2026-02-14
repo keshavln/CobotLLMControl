@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ea59b764481acdbc28da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "addverb_cobot_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "addverb_cobot_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-addverb_cobot_hardware_uninstall-c00186a5b04071e11fbb.json",
+					"name" : "addverb_cobot_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cobot_hw_interface::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cobot_hw_interface-11e7e9294c41e10032ea.json",
+					"name" : "cobot_hw_interface",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-07db44fd1fbbdc336e8e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/keshav/cobot_ros2_ws/build/addverb_cobot_hardware",
+		"source" : "/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

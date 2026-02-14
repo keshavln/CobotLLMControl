@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from addverb_cobot_msgs/srv/Gripper.srv
+// generated code does not contain a copyright notice
+
+
+module addverb_cobot_msgs {
+  module srv {
+    struct Gripper_Request {
+      double position;
+
+      double grasp_force;
+    };
+    struct Gripper_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

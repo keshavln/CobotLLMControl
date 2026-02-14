@@ -1,0 +1,26 @@
+[0.015s] Invoking command in '/home/keshav/cobot_ros2_ws/build/addverbmove': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PS1=(cobotenv) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(cobotenv) /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverbmove -- -j20 -l20
+[0.083s] [ 50%] Built target movecobotanywhere
+[0.083s] [100%] Built target movecobot
+[0.224s] Invoked command in '/home/keshav/cobot_ros2_ws/build/addverbmove' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PS1=(cobotenv) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(cobotenv) /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverbmove -- -j20 -l20
+[0.225s] Invoking command in '/home/keshav/cobot_ros2_ws/build/addverbmove': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PS1=(cobotenv) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(cobotenv) /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverbmove
+[0.232s] -- Install configuration: ""
+[0.232s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/launch
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/launch/move.launch.py
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/lib/addverbmove/movecobot
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/lib/addverbmove/movecobotanywhere
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/ament_index/resource_index/package_run_dependencies/addverbmove
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/ament_index/resource_index/parent_prefix_path/addverbmove
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/environment/ament_prefix_path.sh
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/environment/ament_prefix_path.dsv
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/environment/path.sh
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/environment/path.dsv
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/local_setup.bash
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/local_setup.sh
+[0.233s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/local_setup.zsh
+[0.234s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/local_setup.dsv
+[0.234s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/package.dsv
+[0.234s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/ament_index/resource_index/packages/addverbmove
+[0.234s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/cmake/addverbmoveConfig.cmake
+[0.234s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/cmake/addverbmoveConfig-version.cmake
+[0.234s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverbmove/share/addverbmove/package.xml
+[0.260s] Invoked command in '/home/keshav/cobot_ros2_ws/build/addverbmove' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) PS1=(cobotenv) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ VIRTUAL_ENV_PROMPT=(cobotenv) /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverbmove

@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from addverb_cobot_msgs/action/Replay.action
+// generated code does not contain a copyright notice
+
+
+module addverb_cobot_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "goal ")
+    struct Replay_Goal {
+      string label;
+
+      int32 iterations;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct Replay_Result {
+      string error_code;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Replay_Feedback {
+      int32 iteration;
+
+      sequence<double> joint_state;
+    };
+  };
+};

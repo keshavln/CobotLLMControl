@@ -1,0 +1,28 @@
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_tcp.cpp:[m[K In constructor ‘[01m[Kptp_tcp::PTPTCPTestClient::PTPTCPTestClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_tcp.cpp:29:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   29 |         explicit PTPTCPTestClient([01;35m[Kconst rclcpp::NodeOptions &options[m[K)
+      |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_tcp.cpp:[m[K In lambda function:
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_tcp.cpp:123:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  123 |                     [this]([01;35m[Kconst GoalHandleFollowCartesianTrajectory::WrappedResult &result[m[K)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_tcp.cpp:[m[K In lambda function:
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_tcp.cpp:130:93:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  130 |                            [01;35m[Kconst std::shared_ptr<const FollowCartesianTrajectory::Feedback> feedback[m[K)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_cartesian_impedance.cpp:[m[K In lambda function:
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_cartesian_impedance.cpp:89:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   89 |         options.result_callback = [this]([01;35m[Kconst GoalHandleFollowJointTrajectory::WrappedResult &result[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_joint_impedance.cpp:[m[K In lambda function:
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_joint_impedance.cpp:92:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   92 |         options.result_callback = [this]([01;35m[Kconst GoalHandleFollowJointTrajectory::WrappedResult &result[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_joint.cpp:[m[K In constructor ‘[01m[Kptp::DemoClient::DemoClient(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_joint.cpp:20:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 |         explicit DemoClient([01;35m[Kconst rclcpp::NodeOptions &options[m[K)
+      |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_joint.cpp:[m[K In lambda function:
+[01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/examples/src/demo_ptp_joint.cpp:107:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  107 |                     [this]([01;35m[Kconst GoalHandleFollowJointTrajectory::WrappedResult &result[m[K)
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

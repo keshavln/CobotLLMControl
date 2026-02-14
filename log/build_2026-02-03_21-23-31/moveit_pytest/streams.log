@@ -1,0 +1,36 @@
+[0.465s] Invoking command in '/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/moveit_pytest': PYTHONPATH=/home/keshav/cobot_ros2_ws/build/moveit_pytest/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/moveit_pytest build --build-base /home/keshav/cobot_ros2_ws/build/moveit_pytest/build install --record /home/keshav/cobot_ros2_ws/build/moveit_pytest/install.log --single-version-externally-managed install_data
+[0.642s] running egg_info
+[0.642s] writing ../../../../build/moveit_pytest/moveit_pytest.egg-info/PKG-INFO
+[0.642s] writing dependency_links to ../../../../build/moveit_pytest/moveit_pytest.egg-info/dependency_links.txt
+[0.643s] writing entry points to ../../../../build/moveit_pytest/moveit_pytest.egg-info/entry_points.txt
+[0.643s] writing requirements to ../../../../build/moveit_pytest/moveit_pytest.egg-info/requires.txt
+[0.643s] writing top-level names to ../../../../build/moveit_pytest/moveit_pytest.egg-info/top_level.txt
+[0.644s] reading manifest file '../../../../build/moveit_pytest/moveit_pytest.egg-info/SOURCES.txt'
+[0.645s] writing manifest file '../../../../build/moveit_pytest/moveit_pytest.egg-info/SOURCES.txt'
+[0.645s] running build
+[0.645s] running build_py
+[0.645s] copying moveit_pytest/cobotkeyboard.py -> /home/keshav/cobot_ros2_ws/build/moveit_pytest/build/lib/moveit_pytest
+[0.645s] copying moveit_pytest/cobotdetection3.py -> /home/keshav/cobot_ros2_ws/build/moveit_pytest/build/lib/moveit_pytest
+[0.645s] running install
+[0.646s] running install_lib
+[0.646s] copying /home/keshav/cobot_ros2_ws/build/moveit_pytest/build/lib/moveit_pytest/cobotkeyboard.py -> /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages/moveit_pytest
+[0.646s] copying /home/keshav/cobot_ros2_ws/build/moveit_pytest/build/lib/moveit_pytest/cobotdetection3.py -> /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages/moveit_pytest
+[0.647s] byte-compiling /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages/moveit_pytest/cobotkeyboard.py to cobotkeyboard.cpython-310.pyc
+[0.649s] byte-compiling /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages/moveit_pytest/cobotdetection3.py to cobotdetection3.cpython-310.pyc
+[0.649s] running install_data
+[0.650s] running install_egg_info
+[0.651s] removing '/home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages/moveit_pytest-0.0.0-py3.10.egg-info' (and everything under it)
+[0.651s] Copying ../../../../build/moveit_pytest/moveit_pytest.egg-info to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages/moveit_pytest-0.0.0-py3.10.egg-info
+[0.651s] running install_scripts
+[0.667s] Installing cobotcheckpoint script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.668s] Installing cobotdetection script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.668s] Installing cobotdetection2 script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.668s] Installing cobotdetection3 script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.668s] Installing cobotkeyboard script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.668s] Installing cobotrotate script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.668s] Installing grippercontrol script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.668s] Installing movecoord script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.669s] Installing moveit_test script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.669s] Installing plan_and_execute script to /home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/moveit_pytest
+[0.669s] writing list of installed files to '/home/keshav/cobot_ros2_ws/build/moveit_pytest/install.log'
+[0.703s] Invoked command in '/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/moveit_pytest' returned '0': PYTHONPATH=/home/keshav/cobot_ros2_ws/build/moveit_pytest/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/keshav/cobot_ros2_ws/install/moveit_pytest/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/moveit_pytest build --build-base /home/keshav/cobot_ros2_ws/build/moveit_pytest/build install --record /home/keshav/cobot_ros2_ws/build/moveit_pytest/install.log --single-version-externally-managed install_data

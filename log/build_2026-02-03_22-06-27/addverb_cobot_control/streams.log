@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverb_cobot_control -- -j20 -l20
+[0.201s] Invoked command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverb_cobot_control -- -j20 -l20
+[0.209s] Invoking command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverb_cobot_control
+[0.215s] -- Install configuration: ""
+[0.215s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/launch
+[0.215s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/launch/__pycache__
+[0.215s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/launch/__pycache__/cobot_control.launch.cpython-310.pyc
+[0.215s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/launch/cobot_control.launch.py
+[0.215s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/config
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/config/ros2_controllers.yaml
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/config/sim_config.yaml
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/config/cobot_simulated_config.yaml
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/config/payload_config.yaml
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/ament_index/resource_index/package_run_dependencies/addverb_cobot_control
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/ament_index/resource_index/parent_prefix_path/addverb_cobot_control
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/environment/ament_prefix_path.sh
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/environment/ament_prefix_path.dsv
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/environment/path.sh
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/environment/path.dsv
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/local_setup.bash
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/local_setup.sh
+[0.216s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/local_setup.zsh
+[0.217s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/local_setup.dsv
+[0.217s] -- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/package.dsv
+[0.217s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/ament_index/resource_index/packages/addverb_cobot_control
+[0.217s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/cmake/addverb_cobot_controlConfig.cmake
+[0.217s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/cmake/addverb_cobot_controlConfig-version.cmake
+[0.217s] -- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_control/share/addverb_cobot_control/package.xml
+[0.226s] Invoked command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/addverb_cobot_control

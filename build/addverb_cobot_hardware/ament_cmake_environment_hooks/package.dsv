@@ -1,0 +1,4 @@
+source;share/addverb_cobot_hardware/local_setup.bash
+source;share/addverb_cobot_hardware/local_setup.dsv
+source;share/addverb_cobot_hardware/local_setup.sh
+source;share/addverb_cobot_hardware/local_setup.zsh

@@ -1,0 +1,86 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found utility: 0.0.0 (/home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake)
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found addverb_cobot_controllers: 0.0.0 (/home/keshav/cobot_ros2_ws/install/addverb_cobot_controllers/share/addverb_cobot_controllers/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_hardware/$<BUILD_INTERFACE:include/
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/keshav/cobot_ros2_ws/build/addverb_cobot_hardware
+[35m[1mConsolidate compiler generated dependencies of target cobot_hw_interface[0m
+[100%] Built target cobot_hw_interface
+-- Install configuration: ""
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cobot_hw_interface.xml
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/include
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/include/addverb_cobot_hardware
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/include/addverb_cobot_hardware/cobot_auxiliary.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/include/addverb_cobot_hardware/cobot_executor.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/include/addverb_cobot_hardware/cobot_services.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/include/addverb_cobot_hardware/cobot_hw_interface.h
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libcobot_hw_interface.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libbackend_executor.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libdata_adapter.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libdata_handler.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libdata_parser.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libdata_store.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/liberror_manager_impl.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libhttp_server.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/liblistener.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libnetwork_manager.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libshared_state.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_client.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_client_comm_wrapper.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_comm_wrapper.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_comm_wrapper_baseline.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_communication.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_communication_json.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_server.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libsocket_server_comm_wrapper.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/lib/libwebsocket_server.so
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/environment/library_path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/environment/library_path.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/ament_index/resource_index/package_run_dependencies/addverb_cobot_hardware
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/ament_index/resource_index/parent_prefix_path/addverb_cobot_hardware
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/environment/ament_prefix_path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/environment/path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/environment/path.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/local_setup.bash
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/local_setup.sh
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/local_setup.zsh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/local_setup.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/package.dsv
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/ament_index/resource_index/packages/addverb_cobot_hardware
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/addverb_cobot_hardware
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cmake/export_addverb_cobot_hardwareExport.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cmake/export_addverb_cobot_hardwareExport-noconfig.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cmake/addverb_cobot_hardwareConfig.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/cmake/addverb_cobot_hardwareConfig-version.cmake
+-- Up-to-date: /home/keshav/cobot_ros2_ws/install/addverb_cobot_hardware/share/addverb_cobot_hardware/package.xml

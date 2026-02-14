@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from addverb_cobot_msgs/msg/CartesianTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "addverb_cobot_msgs/msg/CartesianTrajectoryPoint.idl"
+
+module addverb_cobot_msgs {
+  module msg {
+    struct CartesianTrajectory {
+      sequence<addverb_cobot_msgs::msg::CartesianTrajectoryPoint> points;
+    };
+  };
+};

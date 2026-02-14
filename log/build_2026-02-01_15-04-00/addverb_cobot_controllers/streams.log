@@ -1,0 +1,192 @@
+[0.010s] Invoking command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/utility/lib:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers -- -j20 -l20
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target controller_utils[0m
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target gripper_action_bridge[0m
+[0.068s] [ 23%] Built target controller_utils
+[0.068s] [ 23%] Built target gripper_action_bridge
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target addverb_cobot_controllers[0m
+[0.100s] [ 29%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/joint_jogging_controller.cpp.o[0m
+[0.101s] [ 52%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/cartesian_impedance_controller.cpp.o[0m
+[0.101s] [ 52%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/ptp_tcp_controller.cpp.o[0m
+[0.102s] [ 52%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/joint_impedance_controller.cpp.o[0m
+[0.102s] [ 52%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/gripper_controller.cpp.o[0m
+[0.102s] [ 58%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/ptp_joint_controller.cpp.o[0m
+[0.103s] [ 64%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/cartesian_jogging_controller.cpp.o[0m
+[0.103s] [ 76%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/free_drive_controller.cpp.o[0m
+[0.104s] [ 76%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/recorder_controller.cpp.o[0m
+[0.108s] [ 82%] [32mBuilding CXX object CMakeFiles/addverb_cobot_controllers.dir/src/velocity_controller.cpp.o[0m
+[1.961s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/velocity_controller.h:25[m[K,
+[1.961s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:12[m[K:
+[1.961s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[1.961s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[1.961s]       |                                                                                                    [01;36m[K^[m[K
+[2.117s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/joint_jogging_controller.h:25[m[K,
+[2.118s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:1[m[K:
+[2.118s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[2.118s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[2.118s]       |                                                                                                    [01;36m[K^[m[K
+[2.259s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type addverb_cobot_controllers::VelocityController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.259s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:77:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.259s]    77 |         [01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[2.259s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.259s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:77:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.260s]    77 |         const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[2.260s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.260s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::VelocityController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[2.260s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:170:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.260s]   170 |     controller_interface::CallbackReturn VelocityController::on_configure([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.261s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.262s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::VelocityController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.262s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:180:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.262s]   180 |     controller_interface::CallbackReturn VelocityController::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.262s]       |                                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.264s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::VelocityController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.264s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/velocity_controller.cpp:212:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.264s]   212 |     controller_interface::CallbackReturn VelocityController::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.264s]       |                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.373s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:21[m[K,
+[2.373s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/free_drive_controller.h:21[m[K,
+[2.373s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/free_drive_controller.cpp:1[m[K:
+[2.373s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid RecordedDataSet::print()[m[K’:
+[2.373s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:376:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RecordedDataEntry>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.373s]   376 |         for (int i = 0; [01;35m[Ki < dataset.size()[m[K; i++)
+[2.373s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[2.379s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid ControllerConfig::print()[m[K’:
+[2.380s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:494:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.380s]   494 |             for (int j = 0; [01;35m[Kj < target_pos_seq.size()[m[K; j++)
+[2.380s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.380s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:507:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.380s]   507 |             for (int i = 0; [01;35m[Ki < target_time_seq.size()[m[K; i++)
+[2.380s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.407s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type addverb_cobot_controllers::JointJoggingController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[2.407s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:71:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.407s]    71 |         [01;35m[Kconst rclcpp::Time &time[m[K, const rclcpp::Duration &period)
+[2.407s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.407s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:71:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.407s]    71 |         const rclcpp::Time &time, [01;35m[Kconst rclcpp::Duration &period[m[K)
+[2.407s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.408s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::JointJoggingController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[2.408s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:166:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.408s]   166 |     controller_interface::CallbackReturn JointJoggingController::on_configure([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.408s]       |                                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.410s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::JointJoggingController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[2.410s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:177:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.410s]   177 |     controller_interface::CallbackReturn JointJoggingController::on_activate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.410s]       |                                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.410s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::JointJoggingController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[2.410s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_jogging_controller.cpp:210:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.410s]   210 |     controller_interface::CallbackReturn JointJoggingController::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State &previous_state[m[K)
+[2.410s]       |                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.411s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid Configuration::print()[m[K’:
+[2.411s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:1026:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.411s]  1026 |             for (int i = 0; [01;35m[Ki < scripts.size()[m[K; i++)
+[2.411s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[2.451s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:23[m[K,
+[2.451s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/free_drive_controller.h:21[m[K,
+[2.451s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/free_drive_controller.cpp:1[m[K:
+[2.451s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:[m[K At global scope:
+[2.452s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:54:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.452s]    54 |     }[01;35m[K;[m[K
+[2.452s]       |      [01;35m[K^[m[K
+[2.452s]       |      [31m[K-[m[K
+[2.452s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:78:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.452s]    78 |     }[01;35m[K;[m[K
+[2.452s]       |      [01;35m[K^[m[K
+[2.452s]       |      [31m[K-[m[K
+[2.455s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/free_drive_controller.cpp:1[m[K:
+[2.455s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/free_drive_controller.h:28:57:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.455s]    28 |       RCLCPP_SHARED_PTR_DEFINITIONS(FreeDriveController)[01;35m[K;[m[K
+[2.455s]       |                                                         [01;35m[K^[m[K
+[2.455s]       |                                                         [31m[K-[m[K
+[2.457s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_tcp_controller.cpp:1[m[K:
+[2.457s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/ptp_tcp_controller.h:41:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.457s]    41 |         RCLCPP_SHARED_PTR_DEFINITIONS(PTPTCPController)[01;35m[K;[m[K
+[2.457s]       |                                                        [01;35m[K^[m[K
+[2.457s]       |                                                        [31m[K-[m[K
+[2.457s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/free_drive_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::FreeDriveController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[2.457s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/free_drive_controller.cpp:36:107:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.457s]    36 |     controller_interface::CallbackReturn FreeDriveController::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[2.457s]       |                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[2.503s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_tcp_controller.cpp:[m[K In member function ‘[01m[Kvoid addverb_cobot_controllers::PTPTCPController::sendNextCmd_()[m[K’:
+[2.503s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_tcp_controller.cpp:293:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<addverb_cobot_msgs::msg::CartesianTrajectoryPoint_<std::allocator<void> >, std::allocator<addverb_cobot_msgs::msg::CartesianTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.503s]   293 |                 if ([01;35m[Kcur_index_ < current_goal_.trajectory.points.size()[m[K)
+[2.503s]       |                     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.840s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/joint_impedance_controller.cpp:3[m[K:
+[2.840s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/joint_impedance_controller.h:41:60:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.841s]    41 |     RCLCPP_SHARED_PTR_DEFINITIONS(JointImpedanceController)[01;35m[K;[m[K
+[2.841s]       |                                                            [01;35m[K^[m[K
+[2.841s]       |                                                            [31m[K-[m[K
+[3.413s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:21[m[K,
+[3.413s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/recorder_controller.h:25[m[K,
+[3.413s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:1[m[K:
+[3.413s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid RecordedDataSet::print()[m[K’:
+[3.413s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:376:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RecordedDataEntry>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.413s]   376 |         for (int i = 0; [01;35m[Ki < dataset.size()[m[K; i++)
+[3.413s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[3.425s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid ControllerConfig::print()[m[K’:
+[3.425s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:494:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double, std::allocator<double> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.425s]   494 |             for (int j = 0; [01;35m[Kj < target_pos_seq.size()[m[K; j++)
+[3.425s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.425s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:507:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.425s]   507 |             for (int i = 0; [01;35m[Ki < target_time_seq.size()[m[K; i++)
+[3.425s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.482s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid Configuration::print()[m[K’:
+[3.483s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:1026:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.483s]  1026 |             for (int i = 0; [01;35m[Ki < scripts.size()[m[K; i++)
+[3.483s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[3.550s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:23[m[K,
+[3.550s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/recorder_controller.h:25[m[K,
+[3.550s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:1[m[K:
+[3.550s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:[m[K At global scope:
+[3.550s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:54:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.550s]    54 |     }[01;35m[K;[m[K
+[3.551s]       |      [01;35m[K^[m[K
+[3.551s]       |      [31m[K-[m[K
+[3.551s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:78:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.551s]    78 |     }[01;35m[K;[m[K
+[3.551s]       |      [01;35m[K^[m[K
+[3.551s]       |      [31m[K-[m[K
+[3.746s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:1[m[K:
+[3.746s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/recorder_controller.h:38:56:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.746s]    38 |       RCLCPP_SHARED_PTR_DEFINITIONS(RecorderController)[01;35m[K;[m[K
+[3.746s]       |                                                        [01;35m[K^[m[K
+[3.746s]       |                                                        [31m[K-[m[K
+[3.804s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn addverb_cobot_controllers::RecorderController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[3.805s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:25:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.805s]    25 |     controller_interface::CallbackReturn RecorderController::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K)
+[3.805s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.854s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse addverb_cobot_controllers::RecorderController::handleReplayGoal_(const GoalUUID&, std::shared_ptr<const addverb_cobot_msgs::action::Replay_Goal_<std::allocator<void> > >)[m[K’:
+[3.855s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:328:102:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.855s]   328 |     rclcpp_action::GoalResponse RecorderController::handleReplayGoal_([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K,
+[3.855s]       |                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.855s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse addverb_cobot_controllers::RecorderController::handleReplayCancel_(std::shared_ptr<rclcpp_action::ServerGoalHandle<addverb_cobot_msgs::action::Replay> >)[m[K’:
+[3.855s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:374:144:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.855s]   374 |     rclcpp_action::CancelResponse RecorderController::handleReplayCancel_([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<ReplayAction>> goal_handle[m[K)
+[3.855s]       |                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.858s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:[m[K In member function ‘[01m[Kvoid addverb_cobot_controllers::RecorderController::replayExecute_()[m[K’:
+[3.858s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:432:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.858s]   432 |             if ([01;35m[Kcurr_index_ < time_seq_.size()[m[K)
+[3.858s]       |                 [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[3.873s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:[m[K In member function ‘[01m[Kbool addverb_cobot_controllers::RecorderController::validateReplayRequest_()[m[K’:
+[3.873s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/recorder_controller.cpp:601:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.873s]   601 |         for (int i = 0; [01;35m[Ki < time_seq_.size()[m[K; i++)
+[3.874s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[3.904s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_joint_controller.cpp:1[m[K:
+[3.904s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/include/addverb_cobot_controllers/ptp_joint_controller.h:38:58:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[3.904s]    38 |         RCLCPP_SHARED_PTR_DEFINITIONS(PTPJointController)[01;35m[K;[m[K
+[3.904s]       |                                                          [01;35m[K^[m[K
+[3.904s]       |                                                          [31m[K-[m[K
+[3.994s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_joint_controller.cpp:[m[K In member function ‘[01m[Kvoid addverb_cobot_controllers::PTPJointController::sendNextCmd_()[m[K’:
+[3.994s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_joint_controller.cpp:325:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.994s]   325 |                 if ([01;35m[Kcur_index_ < current_goal_.trajectory.points.size()[m[K)
+[3.994s]       |                     [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.997s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_joint_controller.cpp:[m[K In member function ‘[01m[Kbool addverb_cobot_controllers::PTPJointController::validateGoal_(const JointTrajectory&)[m[K’:
+[3.997s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/addverb_cobot_controllers/src/ptp_joint_controller.cpp:419:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> >, std::allocator<trajectory_msgs::msg::JointTrajectoryPoint_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.997s]   419 |         for (int i = 0; [01;35m[Ki < point.size()[m[K; i++)
+[3.997s]       |                         [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[21.947s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[21.956s] compilation terminated.
+[21.957s] gmake[2]: *** [CMakeFiles/addverb_cobot_controllers.dir/build.make:104: CMakeFiles/addverb_cobot_controllers.dir/src/ptp_tcp_controller.cpp.o] Error 1
+[21.957s] gmake[2]: *** Waiting for unfinished jobs....
+[38.912s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/addverb_cobot_controllers.dir/all] Error 2
+[38.914s] gmake: *** [Makefile:146: all] Error 2
+[39.006s] Invoked command in '/home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers' returned '2': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/utility:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/utility/lib:/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/addverb_cobot_controllers -- -j20 -l20

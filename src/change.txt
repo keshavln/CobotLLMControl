@@ -1,0 +1,7 @@
+REMOVED THE VELOCITY COMMAND INTERFACE FROM THE ARM CONTROLLER IN SIM_CONFIG.YAML, THIS FIXED ABSOLUTELY EVERYTHING.
+
+
+
+command:
+
+ros2 service call /ATTACHLINK linkattacher_msgs/srv/AttachLink "{model1_name: 'robot', link1_name: 'robotiq_85_base_link', model2_name: 'blue_cube', link2_name: 'link'}"

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import robot urdf file -->
+    <xacro:include filename="$(find addverb_cobot_description)/urdf/heal.urdf.xacro" />
+
+    <!-- Import control_xacro 
+    <xacro:include filename="robot.ros2_control.xacro" />
+
+
+    <xacro:robot_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>-->
+
+    <!-- <link name = "random"/>
+
+    <joint name="left_inner_knuckle_joint_mimic" type="fixed">
+        <parent link="world" />
+        <child link="random" />
+        </joint>
+
+    <joint name="left_inner_finger_joint_mimic" type="fixed">
+        <parent link="world" />
+        <child link="random" />
+        </joint>
+
+    <joint name="right_inner_knuckle_joint_mimic" type="fixed">
+        <parent link="world" />
+        <child link="random" />
+        </joint>
+
+    <joint name="right_inner_finger_joint_mimic" type="fixed">
+        <parent link="world" />
+        <child link="random" />
+        </joint>
+
+    <joint name="right_outer_knuckle_joint_mimic" type="fixed">
+        <parent link="world" />
+        <child link="random" />
+        </joint> -->
+
+
+</robot>

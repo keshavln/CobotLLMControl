@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+    <world name='modifiedempty'>
+        
+        <plugin
+            filename="libignition-gazebo-physics-system.so"
+            name="ignition::gazebo::systems::Physics">
+        </plugin>
+        <plugin
+            filename="libignition-gazebo-user-commands-system.so"
+            name="ignition::gazebo::systems::UserCommands">
+        </plugin>
+        <plugin
+            filename="libignition-gazebo-scene-broadcaster-system.so"
+            name="ignition::gazebo::systems::SceneBroadcaster">
+        </plugin>
+
+        <scene>
+            <ambient>0.4 0.4 0.4 1</ambient>
+            <background>0.7 0.7 0.7 1</background>
+            <sky>
+                <clouds>
+                    <speed>12</speed>
+                    <direction>1.57</direction>
+                    <humidity>0.5</humidity>
+                </clouds>
+                <ambient>0.6 0.8 1.0 1.0</ambient>
+                <blue_horizon>0.8 0.9 1.0 1.0</blue_horizon>
+                <blue_sky>0.5 0.7 0.9 1.0</blue_sky>
+            </sky>
+        </scene>
+
+        <light type="directional" name="sun">
+            <cast_shadows>true</cast_shadows>
+            <pose>0 0 10 0 0 0</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+
+        <model name="ground_plane">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0.8 0.8 0.8 1</ambient>
+                        <diffuse>0.8 0.8 0.8 1</diffuse>
+                        <specular>0.8 0.8 0.8 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <model name="mini_table">
+            <static>true</static>
+            <pose>0 0.5 0 0 0 0</pose>
+            <link name="link">
+                
+                <visual name="top_visual">
+                    <pose>0 0 0.20835 0 0 0</pose>
+                    <geometry>
+                        <box>
+                            <size>0.2 0.2 0.0167</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0.5 0.3 0.1 1</ambient>
+                        <diffuse>0.5 0.3 0.1 1</diffuse>
+                    </material>
+                </visual>
+                <collision name="top_collision">
+                    <pose>0 0 0.20835 0 0 0</pose>
+                    <geometry>
+                        <box>
+                            <size>0.2 0.2 0.0167</size>
+                        </box>
+                    </geometry>
+                </collision>
+
+                <visual name="leg1_visual">
+                    <pose>0.0833 0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                    <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.2 0.2 0.2 1</diffuse></material>
+                </visual>
+                <collision name="leg1_collision">
+                    <pose>0.0833 0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                </collision>
+
+                <visual name="leg2_visual">
+                    <pose>0.0833 -0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                    <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.2 0.2 0.2 1</diffuse></material>
+                </visual>
+                <collision name="leg2_collision">
+                    <pose>0.0833 -0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                </collision>
+
+                <visual name="leg3_visual">
+                    <pose>-0.0833 0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                    <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.2 0.2 0.2 1</diffuse></material>
+                </visual>
+                <collision name="leg3_collision">
+                    <pose>-0.0833 0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                </collision>
+
+                <visual name="leg4_visual">
+                    <pose>-0.0833 -0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                    <material><ambient>0.2 0.2 0.2 1</ambient><diffuse>0.2 0.2 0.2 1</diffuse></material>
+                </visual>
+                <collision name="leg4_collision">
+                    <pose>-0.0833 -0.0833 0.1 0 0 0</pose>
+                    <geometry><box><size>0.0167 0.0167 0.2</size></box></geometry>
+                </collision>
+            </link>
+        </model>
+
+        <model name="blue_cube">
+            <pose>0 0.5 0.2417 0 0 0</pose>
+            <link name="link">
+                <inertial>
+                    <mass>0.1</mass>
+                    <inertia>
+                        <ixx>0.0000416</ixx> <ixy>0</ixy> <ixz>0</ixz>
+                        <iyy>0.0000416</iyy> <iyz>0</iyz> <izz>0.0000416</izz>
+                    </inertia>
+                </inertial>
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.05 0.05 0.05</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.05 0.05 0.05</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>0 0 1 1</ambient>
+                        <diffuse>0 0 1 1</diffuse>
+                        <specular>0.1 0.1 0.1 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+    </world>
+</sdf>

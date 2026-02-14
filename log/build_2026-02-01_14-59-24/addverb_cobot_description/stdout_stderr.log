@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/keshav/cobot_ros2_ws/build/addverb_cobot_description
+-- Install configuration: ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/blueworld4.sdf
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/blueworld2.sdf
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/checkpointsave.launch.py
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/blueworld.sdf
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/gazebo.launch.py
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/blueworld5.sdf
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/display.launch.py
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/launch/blueworld3.sdf
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/urdf
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/urdf/syncro_ros2_control.urdf.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/urdf/heal.urdf
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/urdf/heal_ros2_control.urdf.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/urdf/heal.urdf.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/urdf/syncro.urdf.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/urdf/cobot_gazebo.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/inner_finger_coarse.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/base_link.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/link3.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/link2.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/link1.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/outer_finger_coarse.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/link4.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/link5.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/end_effector.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/robotiq_85_base_link_fine.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/inner_knuckle_fine.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/robotiq_85_base_link_coarse.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/outer_finger_fine.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/outer_knuckle_coarse.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/table.stl
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/outer_knuckle_fine.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/inner_finger_fine.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/meshes/inner_knuckle_coarse.STL
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/rviz
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/rviz/default.rviz
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/ros2_control
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/ros2_control/newcontrol.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/ros2_control/syncro.ros2_control.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/ros2_control/heal.ros2_control.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/ros2_control/heal.config.xacro
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/ament_index/resource_index/package_run_dependencies/addverb_cobot_description
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/ament_index/resource_index/parent_prefix_path/addverb_cobot_description
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/environment/ament_prefix_path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/environment/path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/environment/path.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/local_setup.bash
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/local_setup.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/local_setup.zsh
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/local_setup.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/package.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/ament_index/resource_index/packages/addverb_cobot_description
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/cmake/addverb_cobot_descriptionConfig.cmake
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/cmake/addverb_cobot_descriptionConfig-version.cmake
+-- Installing: /home/keshav/cobot_ros2_ws/install/addverb_cobot_description/share/addverb_cobot_description/package.xml

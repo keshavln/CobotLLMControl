@@ -1,0 +1,115 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+-- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found addverb_cobot_msgs: 0.0.0 (/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/share/addverb_cobot_msgs/cmake)
+-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/keshav/cobot_ros2_ws/build/examples
+[  4%] [32mBuilding CXX object CMakeFiles/demo_ptp_joint.dir/rclcpp_components/node_main_demo_ptp_joint.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/demo_velocity.dir/src/demo_velocity.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/demo_cartesian_impedance.dir/src/demo_cartesian_impedance.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/demo_gripper.dir/src/demo_gripper.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/demo_cartesian_jogging.dir/src/demo_cartesian_jogging.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo_joint_jogging.dir/src/demo_joint_jogging.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/demo_ptp_tcp.dir/src/demo_ptp_tcp.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/demo_recorder.dir/src/demo_recorder.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/demo_effort.dir/src/demo_effort.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/ptp_demo_client.dir/src/demo_ptp_joint.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/demo_gravity_comp_effort.dir/src/demo_gravity_comp_effort.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo_joint_impedance.dir/src/demo_joint_impedance.cpp.o[0m
+[ 54%] [32m[1mLinking CXX executable demo_ptp_joint[0m
+[ 54%] Built target demo_ptp_joint
+[ 58%] [32m[1mLinking CXX executable demo_gripper[0m
+[ 58%] Built target demo_gripper
+[ 62%] [32m[1mLinking CXX executable demo_cartesian_jogging[0m
+[ 62%] Built target demo_cartesian_jogging
+[ 66%] [32m[1mLinking CXX executable demo_recorder[0m
+[ 70%] [32m[1mLinking CXX executable demo_effort[0m
+[ 75%] [32m[1mLinking CXX executable demo_velocity[0m
+[ 75%] Built target demo_recorder
+[ 75%] Built target demo_effort
+[ 75%] Built target demo_velocity
+[ 79%] [32m[1mLinking CXX executable demo_gravity_comp_effort[0m
+[ 79%] Built target demo_gravity_comp_effort
+[ 83%] [32m[1mLinking CXX executable demo_joint_jogging[0m
+[ 83%] Built target demo_joint_jogging
+[ 87%] [32m[1mLinking CXX executable demo_ptp_tcp[0m
+[ 91%] [32m[1mLinking CXX executable demo_cartesian_impedance[0m
+[ 91%] Built target demo_ptp_tcp
+[ 95%] [32m[1mLinking CXX shared library libptp_demo_client.so[0m
+[ 95%] Built target demo_cartesian_impedance
+[100%] [32m[1mLinking CXX executable demo_joint_impedance[0m
+[100%] Built target ptp_demo_client
+[100%] Built target demo_joint_impedance
+-- Install configuration: ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_ptp_joint
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_ptp_joint" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_velocity
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_velocity" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_effort
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_effort" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_gravity_comp_effort
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_gravity_comp_effort" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_joint_jogging
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_joint_jogging" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_cartesian_jogging
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_cartesian_jogging" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_joint_impedance
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_joint_impedance" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_gripper
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_gripper" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_recorder
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_recorder" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_ptp_tcp
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_ptp_tcp" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_cartesian_impedance
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/examples/demo_cartesian_impedance" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/lib/libptp_demo_client.so
+-- Set runtime path of "/home/keshav/cobot_ros2_ws/install/examples/lib/libptp_demo_client.so" to ""
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/ament_index/resource_index/package_run_dependencies/examples
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/ament_index/resource_index/parent_prefix_path/examples
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/environment/ament_prefix_path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/environment/ament_prefix_path.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/environment/path.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/environment/path.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/local_setup.bash
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/local_setup.sh
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/local_setup.zsh
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/local_setup.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/package.dsv
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/ament_index/resource_index/packages/examples
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/ament_index/resource_index/rclcpp_components/examples
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/cmake/examplesConfig.cmake
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/cmake/examplesConfig-version.cmake
+-- Installing: /home/keshav/cobot_ros2_ws/install/examples/share/examples/package.xml

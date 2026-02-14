@@ -1,0 +1,387 @@
+[0.012s] Invoking command in '/home/keshav/cobot_ros2_ws/build/utility': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility -DPython3_EXECUTABLE=/usr/bin/python3 -DCMAKE_INSTALL_PREFIX=/home/keshav/cobot_ros2_ws/install/utility
+[0.078s] -- The C compiler identification is GNU 11.4.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.139s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.227s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.228s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.314s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.320s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.323s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.510s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.541s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.545s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.551s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.559s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.602s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.604s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.716s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.748s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.754s] -- Looking for pthread.h
+[0.818s] -- Looking for pthread.h - found
+[0.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.959s] -- Found Threads: TRUE  
+[1.002s] -- Found addverb_cobot_msgs: 0.0.0 (/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/share/addverb_cobot_msgs/cmake)
+[1.041s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.094s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.094s] -- Configured cppcheck include dirs: /home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include;/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/$<BUILD_INTERFACE:/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include
+[1.094s] -- Configured cppcheck exclude dirs and/or files: 
+[1.095s] -- Added test 'lint_cmake' to check CMake code style
+[1.095s] -- Added test 'uncrustify' to check C / C++ code style
+[1.095s] -- Configured uncrustify additional arguments: 
+[1.095s] -- Added test 'xmllint' to check XML markup files
+[1.096s] -- Configuring done
+[1.104s] -- Generating done
+[1.107s] -- Build files have been written to: /home/keshav/cobot_ros2_ws/build/utility
+[1.113s] Invoked command in '/home/keshav/cobot_ros2_ws/build/utility' returned '0': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility -DPython3_EXECUTABLE=/usr/bin/python3 -DCMAKE_INSTALL_PREFIX=/home/keshav/cobot_ros2_ws/install/utility
+[1.114s] Invoking command in '/home/keshav/cobot_ros2_ws/build/utility': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/utility -- -j20 -l20
+[1.178s] [ 28%] [32mBuilding CXX object CMakeFiles/utility_lib.dir/src/data_converter.cpp.o[0m
+[1.178s] [ 28%] [32mBuilding CXX object CMakeFiles/utility_lib.dir/src/data_communicator.cpp.o[0m
+[1.178s] [ 42%] [32mBuilding CXX object CMakeFiles/utility_lib.dir/src/cobot_comm_wrapper.cpp.o[0m
+[1.178s] [ 57%] [32mBuilding CXX object CMakeFiles/utility_lib.dir/src/data_processor.cpp.o[0m
+[1.179s] [ 71%] [32mBuilding CXX object CMakeFiles/utility_lib.dir/src/data_validator.cpp.o[0m
+[1.179s] [ 85%] [32mBuilding CXX object CMakeFiles/utility_lib.dir/src/hardware_interface_defs.cpp.o[0m
+[1.398s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/hardware_interface_defs.cpp:1[m[K:
+[1.398s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kvoid addverb_cobot::hw_interface_defs::FlexPoint::init(int)[m[K’:
+[1.398s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:54:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.399s]    54 |             void init([01;35m[Kconst int n = 0[m[K)
+[1.399s]       |                       [01;35m[K~~~~~~~~~~^~~~~[m[K
+[1.401s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K At global scope:
+[1.401s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:126:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.401s]   126 |             [01;35m[Kconst[m[K int getSize() const
+[1.401s]       |             [01;35m[K^~~~~[m[K
+[1.401s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kaddverb_cobot::hw_interface_defs::Point addverb_cobot::hw_interface_defs::MultiPoint::getPoint(int) const[m[K’:
+[1.401s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:116:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<addverb_cobot::hw_interface_defs::Point>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.401s]   116 |                 if ([01;35m[Kid >= points.size()[m[K)
+[1.401s]       |                     [01;35m[K~~~^~~~~~~~~~~~~~~~[m[K
+[1.474s] In file included from [01m[K/opt/addverb/cobot_backend/include/socket_client_comm_wrapper.h:16[m[K,
+[1.474s]                  from [01m[K/opt/addverb/cobot_backend/include/data_handler.h:18[m[K,
+[1.474s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/cobot_comm_wrapper.h:19[m[K,
+[1.474s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/cobot_comm_wrapper.cpp:1[m[K:
+[1.474s] [01m[K/opt/addverb/cobot_backend/include/socket_comm_wrapper.h:[m[K In member function ‘[01m[Kbool SocketCommWrapper::containsDelim_(const char&, const string&, int&)[m[K’:
+[1.474s] [01m[K/opt/addverb/cobot_backend/include/socket_comm_wrapper.h:175:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.474s]   175 |         for (int i = 0; [01;35m[Ki < input.size()[m[K; i++)
+[1.474s]       |                         [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[1.483s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:16[m[K,
+[1.483s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.483s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_processor.cpp:1[m[K:
+[1.483s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kvoid addverb_cobot::hw_interface_defs::FlexPoint::init(int)[m[K’:
+[1.483s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:54:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.483s]    54 |             void init([01;35m[Kconst int n = 0[m[K)
+[1.483s]       |                       [01;35m[K~~~~~~~~~~^~~~~[m[K
+[1.484s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K At global scope:
+[1.484s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:126:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.484s]   126 |             [01;35m[Kconst[m[K int getSize() const
+[1.485s]       |             [01;35m[K^~~~~[m[K
+[1.485s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kaddverb_cobot::hw_interface_defs::Point addverb_cobot::hw_interface_defs::MultiPoint::getPoint(int) const[m[K’:
+[1.485s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:116:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<addverb_cobot::hw_interface_defs::Point>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.485s]   116 |                 if ([01;35m[Kid >= points.size()[m[K)
+[1.485s]       |                     [01;35m[K~~~^~~~~~~~~~~~~~~~[m[K
+[1.488s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:16[m[K,
+[1.488s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.488s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_communicator.h:20[m[K,
+[1.488s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_communicator.cpp:1[m[K:
+[1.489s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kvoid addverb_cobot::hw_interface_defs::FlexPoint::init(int)[m[K’:
+[1.489s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:54:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.489s]    54 |             void init([01;35m[Kconst int n = 0[m[K)
+[1.489s]       |                       [01;35m[K~~~~~~~~~~^~~~~[m[K
+[1.490s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K At global scope:
+[1.490s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:126:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.490s]   126 |             [01;35m[Kconst[m[K int getSize() const
+[1.490s]       |             [01;35m[K^~~~~[m[K
+[1.490s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kaddverb_cobot::hw_interface_defs::Point addverb_cobot::hw_interface_defs::MultiPoint::getPoint(int) const[m[K’:
+[1.490s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:116:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<addverb_cobot::hw_interface_defs::Point>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.490s]   116 |                 if ([01;35m[Kid >= points.size()[m[K)
+[1.490s]       |                     [01;35m[K~~~^~~~~~~~~~~~~~~~[m[K
+[1.510s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:16[m[K,
+[1.510s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.511s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_validator.h:16[m[K,
+[1.511s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:1[m[K:
+[1.511s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kvoid addverb_cobot::hw_interface_defs::FlexPoint::init(int)[m[K’:
+[1.511s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:54:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.511s]    54 |             void init([01;35m[Kconst int n = 0[m[K)
+[1.511s]       |                       [01;35m[K~~~~~~~~~~^~~~~[m[K
+[1.512s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K At global scope:
+[1.512s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:126:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.512s]   126 |             [01;35m[Kconst[m[K int getSize() const
+[1.512s]       |             [01;35m[K^~~~~[m[K
+[1.512s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kaddverb_cobot::hw_interface_defs::Point addverb_cobot::hw_interface_defs::MultiPoint::getPoint(int) const[m[K’:
+[1.512s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:116:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<addverb_cobot::hw_interface_defs::Point>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.512s]   116 |                 if ([01;35m[Kid >= points.size()[m[K)
+[1.512s]       |                     [01;35m[K~~~^~~~~~~~~~~~~~~~[m[K
+[1.540s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_handler.h:22[m[K,
+[1.540s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/cobot_comm_wrapper.h:19[m[K,
+[1.540s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/cobot_comm_wrapper.cpp:1[m[K:
+[1.540s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid RecordedDataSet::print()[m[K’:
+[1.540s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:376:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RecordedDataEntry>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.540s]   376 |         for (int i = 0; [01;35m[Ki < dataset.size()[m[K; i++)
+[1.540s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.540s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:16[m[K,
+[1.540s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.541s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_converter.h:15[m[K,
+[1.541s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_converter.cpp:1[m[K:
+[1.541s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kvoid addverb_cobot::hw_interface_defs::FlexPoint::init(int)[m[K’:
+[1.541s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:54:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.541s]    54 |             void init([01;35m[Kconst int n = 0[m[K)
+[1.541s]       |                       [01;35m[K~~~~~~~~~~^~~~~[m[K
+[1.542s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K At global scope:
+[1.542s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:126:13:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[1.542s]   126 |             [01;35m[Kconst[m[K int getSize() const
+[1.542s]       |             [01;35m[K^~~~~[m[K
+[1.542s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:[m[K In member function ‘[01m[Kaddverb_cobot::hw_interface_defs::Point addverb_cobot::hw_interface_defs::MultiPoint::getPoint(int) const[m[K’:
+[1.542s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/hardware_interface_defs.h:116:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kstd::vector<addverb_cobot::hw_interface_defs::Point>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.542s]   116 |                 if ([01;35m[Kid >= points.size()[m[K)
+[1.543s]       |                     [01;35m[K~~~^~~~~~~~~~~~~~~~[m[K
+[1.548s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid ControllerConfig::print()[m[K’:
+[1.548s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:494:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.548s]   494 |             for (int j = 0; [01;35m[Kj < target_pos_seq.size()[m[K; j++)
+[1.548s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.548s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:507:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.548s]   507 |             for (int i = 0; [01;35m[Ki < target_time_seq.size()[m[K; i++)
+[1.548s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.576s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid Configuration::print()[m[K’:
+[1.576s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:1026:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.576s]  1026 |             for (int i = 0; [01;35m[Ki < scripts.size()[m[K; i++)
+[1.576s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.576s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:17[m[K,
+[1.576s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.576s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_processor.cpp:1[m[K:
+[1.576s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid RecordedDataSet::print()[m[K’:
+[1.576s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:376:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RecordedDataEntry>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.576s]   376 |         for (int i = 0; [01;35m[Ki < dataset.size()[m[K; i++)
+[1.576s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.579s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid ControllerConfig::print()[m[K’:
+[1.579s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:494:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.579s]   494 |             for (int j = 0; [01;35m[Kj < target_pos_seq.size()[m[K; j++)
+[1.579s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.580s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:507:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.580s]   507 |             for (int i = 0; [01;35m[Ki < target_time_seq.size()[m[K; i++)
+[1.580s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.580s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:17[m[K,
+[1.580s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.580s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_communicator.h:20[m[K,
+[1.580s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_communicator.cpp:1[m[K:
+[1.581s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid RecordedDataSet::print()[m[K’:
+[1.581s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:376:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RecordedDataEntry>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.581s]   376 |         for (int i = 0; [01;35m[Ki < dataset.size()[m[K; i++)
+[1.581s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.584s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid ControllerConfig::print()[m[K’:
+[1.584s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:494:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.584s]   494 |             for (int j = 0; [01;35m[Kj < target_pos_seq.size()[m[K; j++)
+[1.584s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.584s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:507:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.584s]   507 |             for (int i = 0; [01;35m[Ki < target_time_seq.size()[m[K; i++)
+[1.585s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.600s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:17[m[K,
+[1.600s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.600s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_validator.h:16[m[K,
+[1.600s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:1[m[K:
+[1.601s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid RecordedDataSet::print()[m[K’:
+[1.601s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:376:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RecordedDataEntry>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.601s]   376 |         for (int i = 0; [01;35m[Ki < dataset.size()[m[K; i++)
+[1.601s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.604s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid ControllerConfig::print()[m[K’:
+[1.604s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:494:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.604s]   494 |             for (int j = 0; [01;35m[Kj < target_pos_seq.size()[m[K; j++)
+[1.604s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.604s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:507:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.604s]   507 |             for (int i = 0; [01;35m[Ki < target_time_seq.size()[m[K; i++)
+[1.604s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.607s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_handler.h:23[m[K,
+[1.607s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/cobot_comm_wrapper.h:19[m[K,
+[1.607s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/cobot_comm_wrapper.cpp:1[m[K:
+[1.607s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:[m[K At global scope:
+[1.607s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:54:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.607s]    54 |     }[01;35m[K;[m[K
+[1.607s]       |      [01;35m[K^[m[K
+[1.608s]       |      [31m[K-[m[K
+[1.608s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:78:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.608s]    78 |     }[01;35m[K;[m[K
+[1.608s]       |      [01;35m[K^[m[K
+[1.608s]       |      [31m[K-[m[K
+[1.608s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid Configuration::print()[m[K’:
+[1.608s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:1026:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.608s]  1026 |             for (int i = 0; [01;35m[Ki < scripts.size()[m[K; i++)
+[1.608s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.612s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid Configuration::print()[m[K’:
+[1.612s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:1026:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.612s]  1026 |             for (int i = 0; [01;35m[Ki < scripts.size()[m[K; i++)
+[1.612s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.631s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid Configuration::print()[m[K’:
+[1.631s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:1026:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.631s]  1026 |             for (int i = 0; [01;35m[Ki < scripts.size()[m[K; i++)
+[1.631s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.651s] In file included from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:17[m[K,
+[1.651s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.651s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_converter.h:15[m[K,
+[1.651s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_converter.cpp:1[m[K:
+[1.651s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid RecordedDataSet::print()[m[K’:
+[1.651s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:376:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RecordedDataEntry>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.651s]   376 |         for (int i = 0; [01;35m[Ki < dataset.size()[m[K; i++)
+[1.651s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.656s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid ControllerConfig::print()[m[K’:
+[1.656s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:494:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.656s]   494 |             for (int j = 0; [01;35m[Kj < target_pos_seq.size()[m[K; j++)
+[1.656s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.656s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:507:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.656s]   507 |             for (int i = 0; [01;35m[Ki < target_time_seq.size()[m[K; i++)
+[1.656s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.679s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:23[m[K,
+[1.679s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:19[m[K,
+[1.679s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.679s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_processor.cpp:1[m[K:
+[1.680s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:[m[K At global scope:
+[1.680s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:54:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.680s]    54 |     }[01;35m[K;[m[K
+[1.680s]       |      [01;35m[K^[m[K
+[1.680s]       |      [31m[K-[m[K
+[1.680s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:78:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.680s]    78 |     }[01;35m[K;[m[K
+[1.680s]       |      [01;35m[K^[m[K
+[1.680s]       |      [31m[K-[m[K
+[1.684s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:23[m[K,
+[1.684s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:19[m[K,
+[1.684s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.685s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_communicator.h:20[m[K,
+[1.685s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_communicator.cpp:1[m[K:
+[1.685s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:[m[K At global scope:
+[1.685s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:54:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.685s]    54 |     }[01;35m[K;[m[K
+[1.685s]       |      [01;35m[K^[m[K
+[1.685s]       |      [31m[K-[m[K
+[1.685s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:78:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.685s]    78 |     }[01;35m[K;[m[K
+[1.685s]       |      [01;35m[K^[m[K
+[1.685s]       |      [31m[K-[m[K
+[1.690s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:[m[K In member function ‘[01m[Kvoid Configuration::print()[m[K’:
+[1.690s] [01m[K/opt/addverb/cobot_backend/include/ui_data_types.h:1026:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.690s]  1026 |             for (int i = 0; [01;35m[Ki < scripts.size()[m[K; i++)
+[1.690s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~[m[K
+[1.705s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:23[m[K,
+[1.705s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:19[m[K,
+[1.705s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.705s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_validator.h:16[m[K,
+[1.705s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:1[m[K:
+[1.705s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:[m[K At global scope:
+[1.705s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:54:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.705s]    54 |     }[01;35m[K;[m[K
+[1.705s]       |      [01;35m[K^[m[K
+[1.705s]       |      [31m[K-[m[K
+[1.705s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:78:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.705s]    78 |     }[01;35m[K;[m[K
+[1.705s]       |      [01;35m[K^[m[K
+[1.705s]       |      [31m[K-[m[K
+[1.778s] In file included from [01m[K/opt/addverb/cobot_backend/include/data_store.h:23[m[K,
+[1.778s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor_defs.h:19[m[K,
+[1.778s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:18[m[K,
+[1.778s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_converter.h:15[m[K,
+[1.778s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_converter.cpp:1[m[K:
+[1.779s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:[m[K At global scope:
+[1.779s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:54:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.779s]    54 |     }[01;35m[K;[m[K
+[1.779s]       |      [01;35m[K^[m[K
+[1.779s]       |      [31m[K-[m[K
+[1.779s] [01m[K/opt/addverb/cobot_backend/include/data_adapter.h:78:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.779s]    78 |     }[01;35m[K;[m[K
+[1.779s]       |      [01;35m[K^[m[K
+[1.779s]       |      [31m[K-[m[K
+[2.850s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:[m[K In member function ‘[01m[Kaddverb_cobot::error_codes addverb_cobot::DataValidator::validateRequest(const addverb_cobot::hw_interface_defs::ControlMode&)[m[K’:
+[2.850s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:96:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontroller[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.850s]    96 |     error_codes DataValidator::validateRequest([01;35m[Kconst hw_interface_defs::ControlMode &controller[m[K)
+[2.850s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.850s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:[m[K In member function ‘[01m[Kaddverb_cobot::error_codes addverb_cobot::DataValidator::validateRequest(const addverb_cobot::hw_interface_defs::Effort&)[m[K’:
+[2.850s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:175:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kprev_jeffort[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.850s]   175 |             double [01;35m[Kprev_jeffort[m[K = effort.prev_cmd[i];
+[2.850s]       |                    [01;35m[K^~~~~~~~~~~~[m[K
+[2.851s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.851s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.851s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_processor.h:21[m[K,
+[2.852s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_validator.h:16[m[K,
+[2.852s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:1[m[K:
+[2.852s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:[m[K In member function ‘[01m[Kaddverb_cobot::error_codes addverb_cobot::DataValidator::validateRequest(const addverb_cobot::hw_interface_defs::PtP&)[m[K’:
+[2.852s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:250:35:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.852s]   250 |             RCLCPP_ERROR(logger_, [01;35m[K"PTP command validation failed: Invalid time step %d."[m[K, [32m[Kptp.target.delta_t[m[K);
+[2.852s]       |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~[m[K
+[2.852s]       |                                                                                                      [32m[K|[m[K
+[2.852s]       |                                                                                                      [32m[Kdouble[m[K
+[2.852s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_validator.cpp:250:86:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.852s]   250 |             RCLCPP_ERROR(logger_, "PTP command validation failed: Invalid time step [01;36m[K%d[m[K.", ptp.target.delta_t);
+[2.852s]       |                                                                                     [01;36m[K~^[m[K
+[2.852s]       |                                                                                      [01;36m[K|[m[K
+[2.852s]       |                                                                                      [01;36m[Kint[m[K
+[2.852s]       |                                                                                     [32m[K%f[m[K
+[2.854s] In file included from [01m[K/opt/addverb/cobot_backend/include/socket_client_comm_wrapper.h:16[m[K,
+[2.854s]                  from [01m[K/opt/addverb/cobot_backend/include/data_handler.h:18[m[K,
+[2.854s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/cobot_comm_wrapper.h:19[m[K,
+[2.854s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/include/utility/data_communicator.h:21[m[K,
+[2.855s]                  from [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_communicator.cpp:1[m[K:
+[2.855s] [01m[K/opt/addverb/cobot_backend/include/socket_comm_wrapper.h:[m[K In member function ‘[01m[Kbool SocketCommWrapper::containsDelim_(const char&, const string&, int&)[m[K’:
+[2.855s] [01m[K/opt/addverb/cobot_backend/include/socket_comm_wrapper.h:175:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.855s]   175 |         for (int i = 0; [01;35m[Ki < input.size()[m[K; i++)
+[2.855s]       |                         [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[2.864s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_communicator.cpp:[m[K In member function ‘[01m[Kaddverb_cobot::error_codes addverb_cobot::DataCommunicator::switchController_(const addverb_cobot::DataContainer&)[m[K’:
+[2.864s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/data_communicator.cpp:450:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcontroller_no[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.864s]   450 |         int [01;35m[Kcontroller_no[m[K = (*(container.convert_data->controller_type));
+[2.864s]       |             [01;35m[K^~~~~~~~~~~~~[m[K
+[10.617s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/cobot_comm_wrapper.cpp:[m[K In member function ‘[01m[Kaddverb_cobot::error_codes addverb_cobot::CobotCommWrapper::powerOnRobot()[m[K’:
+[10.617s] [01m[K/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobot_ros2/utility/src/cobot_comm_wrapper.cpp:509:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[10.618s]   509 |     [01;35m[K}[m[K
+[10.618s]       |     [01;35m[K^[m[K
+[22.565s] [100%] [32m[1mLinking CXX shared library libutility_lib.so[0m
+[25.701s] [100%] Built target utility_lib
+[25.723s] Invoked command in '/home/keshav/cobot_ros2_ws/build/utility' returned '0': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/utility -- -j20 -l20
+[25.726s] Invoking command in '/home/keshav/cobot_ros2_ws/build/utility': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/utility
+[25.736s] -- Install configuration: ""
+[25.736s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility
+[25.736s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility
+[25.736s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/ros_wrapper_error_codes.h
+[25.736s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/data_processor.h
+[25.736s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/controller_defs.h
+[25.736s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/cobot_comm_wrapper.h
+[25.736s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/data_validator.h
+[25.737s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/robot_config_info.h
+[25.737s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/hardware_interface_defs.h
+[25.737s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/data_processor_defs.h
+[25.737s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/data_communicator.h
+[25.737s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/include/utility/utility/data_converter.h
+[25.737s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/lib/libutility_lib.so
+[25.751s] -- Set runtime path of "/home/keshav/cobot_ros2_ws/install/utility/lib/libutility_lib.so" to ""
+[25.752s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/environment/library_path.sh
+[25.752s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/environment/library_path.dsv
+[25.752s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/ament_index/resource_index/package_run_dependencies/utility
+[25.752s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/ament_index/resource_index/parent_prefix_path/utility
+[25.752s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/environment/ament_prefix_path.sh
+[25.752s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/environment/ament_prefix_path.dsv
+[25.752s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/environment/path.sh
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/environment/path.dsv
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/local_setup.bash
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/local_setup.sh
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/local_setup.zsh
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/local_setup.dsv
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/package.dsv
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/ament_index/resource_index/packages/utility
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake/export_utilityExport.cmake
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake/export_utilityExport-noconfig.cmake
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake/ament_cmake_export_targets-extras.cmake
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake/utilityConfig.cmake
+[25.753s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/cmake/utilityConfig-version.cmake
+[25.754s] -- Installing: /home/keshav/cobot_ros2_ws/install/utility/share/utility/package.xml
+[25.755s] Invoked command in '/home/keshav/cobot_ros2_ws/build/utility' returned '0': AMENT_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/keshav/cobot_ros2_ws/install/addverb_cobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/utility
