@@ -16,7 +16,7 @@ import torch
 from ultralytics import YOLO
 from groq import Groq
 import time
-from Cobotprocessing.preprocessor import load_system_prompt, extract_object_intent, detect
+from cobotprocessing.preprocessor import load_system_prompt, extract_object_intent, detect
 import numpy as np
 from tf2_ros import Buffer, TransformListener
 from tf2_ros import LookupException, ConnectivityException, ExtrapolationException
@@ -25,7 +25,7 @@ from math import pi
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 
-SYSTEM_PROMPT_PATH = "/home/keshav/cobot_ros2_ws/src/cobot_ros2/Cobotprocessing/system_prompt2.txt"
+SYSTEM_PROMPT_PATH = "/home/keshav/cobot_ros2_ws/src/cobot_ros2/cobotprocessing/system_prompt.txt"
 
 system_prompt = load_system_prompt(SYSTEM_PROMPT_PATH)
 groq_client = Groq(api_key=os.getenv("GROQ_API_KEY"))
