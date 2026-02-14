@@ -1,5 +1,6 @@
 # LLM Control of the Syncro 5 Cobot
 
+## Overview
 This workspace contains the source code of a ROS 2 workspace that allows the Syncro 5 Cobot developed by Addverb to be controlled by an LLM to perform basic tasks in a Gazebo simulation environment. Several modifications were made to Addverb's existing configuration files, and several new ones were created, to allow the cobot to be successfully simulated. This included, amongst other changes: 
 - Changes to the joint limit convention used in the URDF
 - Adding Gazebo camera plugins
@@ -9,7 +10,9 @@ This workspace contains the source code of a ROS 2 workspace that allows the Syn
 
 The python scripts for pick-and-place logic are located in the ```moveit_pytest``` package.
 
-A demo video can be viewed below. The prompt used was "pick up the red cube to your right".
+## Demo
+
+The prompt used below was "pick up the red cube to your right".
 
 
 
@@ -27,4 +30,24 @@ The cobot can currently interact with four objects in the scene:
 
 As the cobot operates solely based on a camera attached to the end-effector, the target may not be immediately visible in all cases. Hence, the LLM prompt must also include the approximate direction in which the object is to be searched for. The cobot can be prompted to search forward, backward, left or right.
 
+## Usage
+
+Clone this repository into a brand new workspace folder. \
+<br>
+  ```git clone https://github.com/keshavln/CobotLLMControl.git``` \
+  <br>
+Build the ROS 2 workspace. \
+<br>
+```colcon build --executor sequential``` \
+<br>
+Source the workspace. \
+<br>
+```source install/setup.bash``` \
+<br>
+Execute the launch file. \
+<br>
+```ros2 launch addverb_cobot_description gazebo.launch.py``` \
+<br>
+<br>
+<br>
 This project may be extended in the future to allow the cobot to generalize to more tasks using MCP tools.
