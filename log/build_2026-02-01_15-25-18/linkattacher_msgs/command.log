@@ -1,6 +1,0 @@
-Invoking command in '/home/keshav/cobot_ros2_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/keshav/cobot_ros2_ws/src/IFRA_LinkAttacher/linkattacher_msgs -DCMAKE_INSTALL_PREFIX=/home/keshav/cobot_ros2_ws/install/linkattacher_msgs
-Invoked command in '/home/keshav/cobot_ros2_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/keshav/cobot_ros2_ws/src/IFRA_LinkAttacher/linkattacher_msgs -DCMAKE_INSTALL_PREFIX=/home/keshav/cobot_ros2_ws/install/linkattacher_msgs
-Invoking command in '/home/keshav/cobot_ros2_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/linkattacher_msgs -- -j20 -l20
-Invoked command in '/home/keshav/cobot_ros2_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/keshav/cobot_ros2_ws/build/linkattacher_msgs -- -j20 -l20
-Invoking command in '/home/keshav/cobot_ros2_ws/build/linkattacher_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/linkattacher_msgs
-Invoked command in '/home/keshav/cobot_ros2_ws/build/linkattacher_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/keshav/cobot_ros2_ws/build/linkattacher_msgs
