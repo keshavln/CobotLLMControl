@@ -54,7 +54,7 @@ Execute the launch file. \
 
 
 
-## Documentation of Codebase Changes
+## Documentation
 
 ### File Modifications
 
@@ -106,7 +106,7 @@ Execute the launch file. \
  
 ---
 
-### New Additions
+### Additions
 
 #### Simulation Configuration & Launch
 
