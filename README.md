@@ -36,8 +36,12 @@ As the cobot operates solely based on a camera attached to the end-effector, the
 
 Clone this repository into a brand new workspace folder. \
 <br>
-  ```git clone https://github.com/keshavln/CobotLLMControl.git``` \
+  ```git clone https://github.com/keshavln/CobotLLMControl.git .``` \
   <br>
+Install the requirements. \
+<br>
+```pip install -r src/cobot_ros2/cobot_ros2/requirements.txt``` \
+<br>
 Build the ROS 2 workspace. \
 <br>
 ```colcon build --executor sequential``` \
