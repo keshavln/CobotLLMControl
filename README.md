@@ -133,20 +133,9 @@ Execute the launch file. \
 *   **`moveit_pytest/moveit_pytest/cobotkeyboard.py`**:
     *   **Function**: Node for teleoperating the robot or triggering actions using keyboard input.
 *   **`moveit_pytest/moveit_pytest/grippercontrol.py`**:
-    *   **Function**: Node to control the gripper, likely handling the logic for the `DetachableJoint` plugin (attaching/detaching objects).
-
-#### Other
-*   **`addverb_moveit_configs/syncro_gripper_moveit_config`**: A new MoveIt configuration package likely specifically tuned for the gripper or a specific simulation setup.
+    *   **Function**: Node to control the gripper.
 
 ---
 
-### Deleted Files
 
-*   **`addverb_moveit_configs/syncro_gripper`**: Removed in favor of the new `syncro_gripper_moveit_config`.
-*   **`control.md`**: Removed (replaced by `README_.md` reference in `Setup.md`).
-
-
-
-<br>
-<br>
 This project may be extended in the future to allow the cobot to generalize to more tasks using MCP tools.
