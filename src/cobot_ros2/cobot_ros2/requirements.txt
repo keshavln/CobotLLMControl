@@ -1,0 +1,7 @@
+pynput
+cv2
+cv-bridge
+torch
+ultralytics
+groq
+scipy
